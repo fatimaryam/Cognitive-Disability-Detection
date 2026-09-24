@@ -200,7 +200,7 @@ The reporting component is designed to convert model outputs and explainability 
 The report-generation implementation is available in:
 
 ```text
-notebooks/03_gradcam_and_llm_reports.ipynb
+notebooks/Report_Generation.ipynb
 ```
 
 ## Reproducing the Experiments
@@ -262,27 +262,4 @@ This repository contains the **code and experimental results**, but does not red
 
 Users must obtain the dataset through its original source and comply with all applicable terms, permissions, privacy requirements, and usage restrictions.
 
-## Citation
 
-If you use this repository or build upon this work, please cite the associated research paper:
-
-```bibtex
-@article{sirshar2026cognitivedisability,
-  title   = {An Interpretable Multi-Task Deep Learning Framework for Automated Cognitive Disability Detection Using Cognitive Drawing Assessments},
-  author  = {[ADD AUTHORS]},
-  journal = {[ADD JOURNAL]},
-  year    = {2026}
-}
-```
-
-## License
-
-The source code in this repository is released under the **MIT License**.
-
-See the `LICENSE` file for the complete license terms.
-
-The dataset is **not covered by this repository's MIT License** and remains subject to its original terms of use.
-
-## Contact
-
-For questions regarding the implementation or research work, please contact the corresponding author through the contact information provided in the associated publication.
