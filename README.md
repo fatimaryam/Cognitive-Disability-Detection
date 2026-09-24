@@ -61,9 +61,9 @@ multi-drawing-transformer-fusion/
 ├── README.md
 │
 ├── notebooks/
-│   ├── 01_preprocessing_and_baselines.ipynb
-│   ├── 02_proposed_model_and_analysis.ipynb
-│   └── 03_gradcam_and_llm_reports.ipyn
+│   ├── Baseline_Models.ipynb
+│   ├── finetune_(Proposed_Model).ipynb
+│   └── Report_Generation.ipyn
 │
 └── results/
     ├── plots/
@@ -73,7 +73,7 @@ multi-drawing-transformer-fusion/
 
 ## Notebooks
 
-### 01 — Preprocessing and Baselines
+### 01 — Baselines Models
 
 This notebook contains:
 
@@ -92,7 +92,7 @@ The baseline architectures include:
 * ViT-B/16
 * ConvNeXt-Tiny
 
-### 02 — Proposed Model and Analysis
+### 02 — Finetune (Proposed Model)
 
 This notebook contains the implementation and evaluation of the proposed multi-drawing framework.
 
@@ -208,8 +208,8 @@ notebooks/03_gradcam_and_llm_reports.ipynb
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/<YOUR_REPOSITORY>.git
-cd <YOUR_REPOSITORY>
+git clone https://github.com/fatimaryam/Cognitive-Disability-Detection.git
+cd Cognitive-Disability-Detection
 ```
 
 ### 2. Install dependencies
